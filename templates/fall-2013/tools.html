@@ -1,0 +1,77 @@
+{% extends "fall-2013/sidebar.html" %}
+
+{% block page %}
+
+<div class="text">
+  <div class="row-fluid">
+    <div class="span12">
+      <h1 class="top">Tools</h1>
+
+      <p>When writing reports for this class, I strongly encourage you
+	to use some tools that are commonly used in computer science.</p>
+
+      <h2>Writing Papers</h2>
+
+      <p>To write papers, please use LaTeX, which is a system of text
+	formatting programs.  LaTeX is a useful publishing tool in the
+	academic world, as it automatically formats documents in many
+	commonly-used styles.  Because LaTeX separates content from style, you
+	will find that it helps you to focus on what you want to say in your
+	report, rather than what your report looks like.</p>
+
+      <p>To help you learn LaTeX, I am including a
+
+	<a href="http://ilab.cs.byu.edu/cs660/code/latex/latex-tutorial.tgz">LaTeX tutorial</a>
+
+	I wrote, complete with tables, figures, and bibliography.  The
+	included examples use the IEEE
+
+	<a href="http://ilab.cs.byu.edu/cs660/code/latex/IEEEtran.tar.gz">article</a>
+
+	and
+
+	<a href="http://ilab.cs.byu.edu/cs660/code/latex/IEEEtranBST.tar.gz">bibliography</a>
+
+	styles.  These styles are typically used for submission to many IEEE
+	conferences.  These files include documentation on how to use them,
+	and my examples give you further advice.</p>
+
+      <p>You should also consult the
+
+	<a href="http://en.wikibooks.org/wiki/LaTeX">LaTeX book on WikiBooks</a>.
+
+      <h2>Creating Graphs</h2>
+
+      <p>To create graphs, you should use Python with the 
+
+	<a href="http://matplotlib.org/">matplotlib</a>
+
+	library. By using a scripting language to create your plots, it will
+	be easy to generate professional-looking plots.  You can also quickly
+	create a large number of plots and easily change the formatting of the
+	plot with a few simple changes to your script.</p>
+
+      <p>If you are using your own machine, install with pip:</p>
+
+<pre>
+sudo pip install matplotlib
+</pre>
+
+      <p>Example code coming soon.</p>
+
+      <h2>Creating Figures</h2>
+
+      <p>Where they are helpful, you are encouraged to include your own
+	figures in your reports. I suggest using
+
+	<a href="http://www.inkscape.org">Inkscape</a>
+
+	or a similar vector drawing program.  Be sure to use a tool
+      that saves in SVG format, so you can easily scale your figures
+      to new sizes.</p>
+      
+    </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block term %}
+<div class="term">
+Fall 2013
+</div>
+{% endblock %}
+
+{% block sidebar %}
+
+<ul class="menu">
+  <li><a href={{url_for("show",directory="fall-2013",page="")}}>Syllabus</a></li>
+  <li><a href={{url_for("show",directory="fall-2013",page="schedule")}} >Schedule</a></li>
+  <li><a href={{url_for("show",directory="fall-2013",page="tools")}} >Tools</a></li>
+  <li><a href="https://groups.google.com/d/forum/byu-cs-660-computer-networks">Google Group</a> <i class="icon-share-alt"></i></li>
+</ul>
+
+<hr>
+
+{% endblock %}
