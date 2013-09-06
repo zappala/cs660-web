@@ -19,12 +19,14 @@ def fall2013schedule():
 
     d = s.day("September 6")
     d.lecture('Internet Architecture')
-    d.reading('A Data-Oriented (and Beyond) Network Architecture','http://www.sigcomm.org/ccr/papers/2007/October/1282427.1282402')
+    d.reading('The Evolution of Layered Protocol Stacks Leads to an Hourglass-Shaped Architecture','http://conferences.sigcomm.org/sigcomm/2011/papers/sigcomm/p206.pdf')
+    d.reading('HTTP as the Narrow Waist of the Future Internet','http://conferences.sigcomm.org/hotnets/2010/papers/a6-popa.pdf')
 
     s.week()
 
     d = s.day("September 9")
     d.lecture('Internet Architecture')
+    d.reading('A Data-Oriented (and Beyond) Network Architecture','http://www.sigcomm.org/ccr/papers/2007/October/1282427.1282402')
 
     d = s.day("September 11")
     d.lecture('Internet Architecture')
