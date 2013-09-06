@@ -30,14 +30,17 @@ def fall2013schedule():
 
     d = s.day("September 11")
     d.lecture('Internet Architecture')
+    d.reading('Architecting for Innovation','d.http://www.sigcomm.org/sites/default/files/ccr/papers/2011/July/2002250-2002256.pdf')
 
     d = s.day("September 13")
     d.lecture('Internet Architecture')
+    d.reading('Software Defined Internet Architecture: Decoupling Architecture from Infrastructure','http://www1.icsi.berkeley.edu/~barath/papers/sdia-hotnets12.pdf')
 
     s.week()
 
     d = s.day("September 16")
     d.lecture('Internet Measurements')
+    d.assignment('Internet Architecture Summary','')
 
     d = s.day('September 18')
     d.lecture('Internet Measurements')
