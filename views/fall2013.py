@@ -40,13 +40,18 @@ def fall2013schedule():
 
     d = s.day("September 16")
     d.lecture('Internet Measurements')
+    d.reading('Understanding the Domain Registration Behavior of Spammers',
+              'http://conferences.sigcomm.org/imc/2013/papers/imc247-haoA.pdf')
+
     d.assignment('Internet Architecture Summary','')
 
     d = s.day('September 18')
     d.lecture('Internet Measurements')
+    d.reading('Analysis of the HTTPS Certificate Ecosystem','')
 
     d = s.day('September 20')
     d.lecture('Internet Measurements')
+    d.reading('A Fistful of Bitcoins: Characterizing Payments Among Men with No Names','http://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf')
 
     s.week()
 
