@@ -55,14 +55,18 @@ def fall2013schedule():
 
     s.week()
 
+    d.assignment('Internet Measurements Summary','')
+
     d = s.day('September 23')
     d.lecture('Middleboxes and Middleware')
+    d.reading('Demystifying the Dark Side of the Middle: A Field Study of Middlebox Failures in Datacenters','')
 
     d = s.day('September 25')
     d.lecture('Middleboxes and Middleware')
+    d.reading("Making Middleboxes Someone Else's Problem: Network Processing as a Cloud Service",'http://conferences.sigcomm.org/sigcomm/2012/paper/sigcomm/p13.pdf')
 
     d = s.day('September 27')
-    d.lecture('Middleboxes and Middleware')
+    d.lecture('Project Discussion')
 
     s.week()
 
@@ -74,6 +78,7 @@ def fall2013schedule():
 
     d = s.day('October 4')
     d.lecture('Data Center Networking')
+    d.assignment('Project Proposal','')
 
     s.week()
 
