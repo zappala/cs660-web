@@ -72,37 +72,30 @@ def fall2013schedule():
 
     d = s.day('September 30')
     d.lecture('Data Center Networking')
+    d.reading('Ananta: Cloud Scale Load Balancing','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p207.pdf')
 
     d = s.day('October 2')
     d.lecture('Data Center Networking')
+    d.reading('Leveraging Endpoint Flexibility in Data-Intensive Clusters','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p231.pdf')
 
     d = s.day('October 4')
     d.lecture('Data Center Networking')
     d.assignment('Project Proposal','')
-
-    s.week()
-
-    d = s.day('October 7')
-    d.lecture('Streaming')
-  
-    d = s.day('October 9')
-    d.lecture('Streaming')
-
-    d = s.day('October 11')
-    d.lecture('Streaming')
+    d.reading("It's Not Easy Being Green",'http://conferences.sigcomm.org/sigcomm/2012/paper/sigcomm/p211.pdf')
 
     s.week()
 
     d = s.day('October 14')
     d.lecture('Social Networking')
-
+    d.reading("Classifying Political Orientation on Twitter: It's Not Easy!",'http://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/view/6128')
 
     d = s.day('October 16')
     d.lecture('Social Networking')
+    d.reading('A Measure of Polarization on Social Media Networks Based on Community Boundaries','http://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/view/6104')
 
     d = s.day('October 18')
     d.lecture('Social Networking')
-
+    d.reading('The Anatomy of Large Facebook Cascades','http://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/view/6123')
 
     s.week()
 
@@ -138,6 +131,17 @@ def fall2013schedule():
 
     d = s.day('November 6')
     d.lecture('Internet of Things')
+
+    s.week()
+
+    d = s.day('October 7')
+    d.lecture('Streaming')
+  
+    d = s.day('October 9')
+    d.lecture('Streaming')
+
+    d = s.day('October 11')
+    d.lecture('Streaming')
 
     s.week()
 
