@@ -100,25 +100,29 @@ def fall2013schedule():
     s.week()
 
     d = s.day('October 21')
-    d.lecture('Usability')
+    d.lecture('Usability and Home Networking')
+    d.reading('The ins and outs of home networking: The case for useful and usable domestic networking','http://dl.acm.org/citation.cfm?id=1534905')
 
     d = s.day('October 23')
-    d.lecture('Usability')
+    d.lecture('Usability and Home Networking')
+    d.reading('Home networking and HCI: what hath god wrought?','http://dl.acm.org/citation.cfm?id=1240712')
+    d.reading('Moving Toward the Middle: The Case Against the End-to-End Argument in Home Networking','http://www.cc.gatech.edu/fac/keith/pubs/hotnets07-end-to-end.pdf')
 
     d = s.day('October 25')
-    d.lecture('Usability')
+    d.lecture('Usability and Home Networking')
+    d.reading('"You\'re Capped!" Understanding the Effects of Bandwidth Caps on Broadband Use in the Home','http://research.microsoft.com/apps/pubs/?id=162079')
 
 
     s.week()
 
     d = s.day('October 28')
-    d.lecture('Home Networking')
+    d.lecture('TBD')
 
     d = s.day('October 30')
-    d.lecture('Home Networking')
+    d.lecture('TBD')
 
     d = s.day('November 1')
-    d.lecture('Home Networking')
+    d.lecture('TBD')
 
 
     s.week()
