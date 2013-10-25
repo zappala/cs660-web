@@ -134,6 +134,7 @@ def fall2013schedule():
     d = s.day('October 28')
     d.lecture('Miscellanea')
     d.reading('Demystifying Page Load Performance with WProf','https://www.usenix.org/conference/nsdi13/demystifying-page-load-performance-wprof')
+    d.assignment('Software Defined Networking Summary','')
 
     d = s.day('October 30')
     d.lecture('Miscellanea')
@@ -147,6 +148,7 @@ def fall2013schedule():
 
     d = s.day('November 4')
     d.lecture('Streaming')
+    d.assignment('Project Proposal','')
   
     d = s.day('November 6')
     d.lecture('Streaming')
