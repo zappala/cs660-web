@@ -147,19 +147,21 @@ def fall2013schedule():
     s.week()
 
     d = s.day('November 4')
-    d.lecture('Streaming')
-    d.assignment('Project Proposal','')
+    d.lecture('Work on Project')
   
     d = s.day('November 6')
+    d.reading('Improving Fairness, Efficiency, and Stability in HTTP-based Adaptive Video Streaming with FESTIVE','http://conferences.sigcomm.org/co-next/2012/eproceedings/conext/p97.pdf')
     d.lecture('Streaming')
 
     d = s.day('November 8')
+    d.reading('Developing a Predictive Model of Quality of Experience for Internet Video','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p339.pdf')
     d.lecture('Streaming')
 
     s.week()
 
     d = s.day('November 11')
     d.lecture('Transport')
+    d.assignment('Project Proposal','')
 
     d = s.day('November 13')
     d.lecture('Transport')
