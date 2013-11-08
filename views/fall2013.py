@@ -161,13 +161,16 @@ def fall2013schedule():
 
     d = s.day('November 11')
     d.lecture('Transport')
+    d.reading('Reducing Web Latency: the Virtue of Gentle Aggression','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p159.pdf')
     d.assignment('Project Proposal','')
 
     d = s.day('November 13')
     d.lecture('Transport')
+    d.reading('FCP: A Flexible Transport Framework for Accommodating Diversity','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p135.pdf')
 
     d = s.day('November 15')
     d.lecture('Transport')
+    d.reading('TCP ex Machina: Computer-Generated Congestion Control','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p123.pdf')
 
     s.week()
 
