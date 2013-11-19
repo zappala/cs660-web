@@ -175,10 +175,11 @@ def fall2013schedule():
     s.week()
 
     d = s.day('November 18')
-    d.lecture('Routing')
+    d.lecture('Project Discussion')
 
     d = s.day('November 20')
     d.lecture('Routing')
+    d.reading('LIFEGUARD: Practical Repair of Persistent Route Failures','http://conferences.sigcomm.org/sigcomm/2012/paper/sigcomm/p395.pdf')
 
     d = s.day('November 22')
     d.lecture('Routing')
