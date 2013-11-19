@@ -182,15 +182,18 @@ def fall2013schedule():
     d.reading('LIFEGUARD: Practical Repair of Persistent Route Failures','http://conferences.sigcomm.org/sigcomm/2012/paper/sigcomm/p395.pdf')
 
     d = s.day('November 22')
-    d.lecture('Routing')
+    d.lecture('Privacy')
+    d.reading('Detecting and Defending Against Third-Party Tracking on the Web','https://www.usenix.org/conference/nsdi12/detecting-and-defending-against-third-party-tracking-web')
 
     s.week()
 
     d = s.day('November 25')
     d.lecture('Privacy')
+    d.reading('Expressive Privacy Control with Pseudonyms','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p291.pdf')
 
     d = s.day('November 26')
     d.lecture('Privacy')
+    d.reading('Koi: A Location-Privacy Platform for Smartphone Apps','https://www.usenix.org/conference/nsdi12/koi-location-privacy-platform-smartphone-apps')
 
     d = s.day('November 27')
     d.lecture('No Class','Thanksgiving Holiday')
