@@ -192,8 +192,7 @@ def fall2013schedule():
     d.reading('Expressive Privacy Control with Pseudonyms','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p291.pdf')
 
     d = s.day('November 26')
-    d.lecture('Privacy')
-    d.reading('Koi: A Location-Privacy Platform for Smartphone Apps','https://www.usenix.org/conference/nsdi12/koi-location-privacy-platform-smartphone-apps')
+    d.lecture('Projects')
 
     d = s.day('November 27')
     d.lecture('No Class','Thanksgiving Holiday')
@@ -204,21 +203,28 @@ def fall2013schedule():
     s.week()
 
     d = s.day('December 2')
-    d.lecture('Security')
+    d.lecture('Privacy')
+    d.reading('Koi: A Location-Privacy Platform for Smartphone Apps','https://www.usenix.org/conference/nsdi12/koi-location-privacy-platform-smartphone-apps')
+    d.assignment('Privacy Summary','')
 
     d = s.day('December 4')
     d.lecture('Security')
+    d.reading('No Attack Necessary: The Surprising Dynamics of SSL Trust Relationships','http://www1.icsi.berkeley.edu/~bernhard/papers/noAttackNecessary.pdf')
 
     d = s.day('December 6')
     d.lecture('Security')
+    d.reading('Rethinking SSL development in an appified world','http://dl.acm.org/citation.cfm?id=2516655')
 
     s.week()
 
     d = s.day('December 9')
-    d.lecture('Miscellaneous')
+    d.lecture('Security')
+    d.reading('Embassies: Radically Refactoring the Web','https://www.usenix.org/conference/nsdi13/embassies-radically-refactoring-web')
 
     d = s.day('December 11')
-    d.lecture('Miscellaneous')
+    d.lecture('Security')
+    d.reading('Shady Paths: Leveraging Surfing Crowds to Detect Malicious Web Pages','http://cs.ucsb.edu/~gianluca/papers/redirections-ccs2013.pdf')
+    d.assignment('Security Summary','')
 
     s.week()
 
