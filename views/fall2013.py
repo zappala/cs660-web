@@ -219,16 +219,17 @@ def fall2013schedule():
 
     d = s.day('December 9')
     d.lecture('Security')
-    d.reading('Embassies: Radically Refactoring the Web','https://www.usenix.org/conference/nsdi13/embassies-radically-refactoring-web')
+    d.reading('Perspectives: Improving SSH-style Host Authentication with Multi-Path Probing','http://www.cs.cmu.edu/~dga/papers/perspectives-usenix2008.pdf')
 
     d = s.day('December 11')
     d.lecture('Security')
-    d.reading('Shady Paths: Leveraging Surfing Crowds to Detect Malicious Web Pages','http://cs.ucsb.edu/~gianluca/papers/redirections-ccs2013.pdf')
+    d.reading('Embassies: Radically Refactoring the Web','https://www.usenix.org/conference/nsdi13/embassies-radically-refactoring-web')
     d.assignment('Security Summary','')
 
     s.week()
 
-    d = s.day('December 17')
+    d = s.day('December 20')
+    d.assignment('Final Paper','')
 
     return render_template('fall-2013/schedule.html',active='schedule',
                            weeks=s.weeks)
