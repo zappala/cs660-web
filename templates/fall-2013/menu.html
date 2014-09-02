@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% set term = 'fall-2013' %}
+
+{% macro render(directory,page,name) -%}
+{% set path = term %}
+{% if directory %}
+{% set path = term + '/' + directory %}
+{% endif %}
+{% set target = page %}
+{% if page == '' %}
+{% set target = 'index' %}
+{% endif %}
+<li {% if active == target %}class="active"{% endif %}>
+<a href={{url_for("show",directory=path, page=page)}} >{{name}}</a></li>
+{%- endmacro %}
+
+{% block term %}
+Fall 2013
+{% endblock %}
+
+{% block menu %}
+
+{{ render('','','Syllabus') }}
+{{ render('','schedule','Schedule') }}
+{{ render('','project','Project') }}
+{{ render('','tools','Tools') }}
+<li><a href="https://groups.google.com/d/forum/byu-cs-660-computer-networks">Discussion <i class="fi-arrow-right"></i></a></li>
+</ul>
+
+{% endblock %}

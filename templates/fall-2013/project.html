@@ -1,68 +1,57 @@
-{% extends "fall-2013/sidebar.html" %}
+{% extends "fall-2013/menu.html" %}
 
 {% block page %}
 
-<div class="text">
-  <div class="row-fluid">
-    <div class="span12">
-      <h1 class="top">Project</h1>
+{% filter markdown %}
+
+# Project
       
-      <p>Each student will also work in teams of two or three on a
-      project for the course. The project should address some open
-      question in the area of networking, and it should include some
-      coding and a short research paper. The amount of work should be
-      enough to occupy a normal workload for a graduate-level class,
-      but significantly less than a Master's thesis.</p>
+Each student will also work in teams of two or three on a project for
+the course. The project should address some open question in the area
+of networking, and it should include some coding and a short research
+paper. The amount of work should be enough to occupy a normal workload
+for a graduate-level class, but significantly less than a Master's
+thesis.
 
-      <h2>Proposal</h2>
+## Proposal
 
-      Each group should write a one or two page proposal describing
-      the research question they would like to pursue and their
-      methodology. The format of the paper should be:
+Each group should write a one or two page proposal describing
+the research question they would like to pursue and their
+methodology. The format of the paper should be:
 
-      <ul>
-	<li>Introduction: Explain the research problem. Provide any
-	  background knowledge needed to understand the problem. Explain
-	  why you think this problem is important. Summarize what you will
-	  do to investigate the problem.</li>
+* Introduction: Explain the research problem. Provide any background
+  knowledge needed to understand the problem. Explain why you think
+  this problem is important. Summarize what you will do to investigate
+  the problem.
 
-	<li>Related Work: Discuss what others have done to address this
-	  problem. Include citations of relevant papers and data sets.</li>
+* Related Work: Discuss what others have done to address this
+  problem. Include citations of relevant papers and data sets.
 
-	<li>Methodology: Discuss your methods. For example, if you
-	  will conduct measurements, explain what you will measure,
-	  how you will collect the data, and how you will analyze the
-	  data.</li>
+* Methodology: Discuss your methods. For example, if you will conduct
+  measurements, explain what you will measure, how you will collect
+  the data, and how you will analyze the data.
 
-      </ul>
+## Paper
 
-      <h2>Paper</h2>
+Each group should write a short paper describing their work.  This
+should include the following sections:
 
-      <p>Each group should write a short paper describing their work.
-	This should include the following sections:</p>
+* Introduction: Explain the research problem. Provide any background
+  knowledge needed to understand the problem. Explain why you think
+  this problem is important. Summarize what you will do to investigate
+  the problem.
 
+* Related Work: Discuss what others have done to address this
+  problem. Include citations of relevant papers and data sets.
 
-      <ul>
-	<li>Introduction: Explain the research problem. Provide any
-	  background knowledge needed to understand the problem. Explain
-	  why you think this problem is important. Summarize what you will
-	  do to investigate the problem.</li>
+* Methodology: Discuss your methods. For example, if you conducted
+  measurements, explain what you measured, how you collected the data,
+  and how you analyzed the data.
 
-	<li>Related Work: Discuss what others have done to address this
-	  problem. Include citations of relevant papers and data sets.</li>
+* Results: Discuss any initial findings.
 
-	<li>Methodology: Discuss your methods. For example, if you
-	  conducted measurements, explain what you measured,
-	  how you collected the data, and how you analyzed the
-	  data.</li>
+* Future Work: Discuss promising areas for additional work.
 
-	<li>Results: Discuss any initial findings.</li>
-
-	<li>Future Work: Discuss promising areas for additional work.</li>
-
-      </ul>
-    </div>
-  </div>
-</div>
+{% endfilter %}
 
 {% endblock %}

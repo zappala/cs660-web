@@ -3,9 +3,12 @@ import sys
 from views import fall2013
 
 from flask import Flask, render_template
+from flaskext.markdown import Markdown
 from flask_frozen import Freezer
 
 from config import app, freezer
+
+Markdown(app)
 
 @app.route('/',defaults={'directory':None,'page':'index'})
 @app.route('/<page>',defaults={'directory':None})
@@ -14,8 +17,12 @@ from config import app, freezer
 def show(directory,page):
     try:
         if not directory:
-            return render_template(page + '.html')
-        return render_template(directory+"/" + page + '.html')
+            return render_template(page + '.html', active='home')
+        try:
+            prev = directory.split('/')[-1]
+        except:
+            prev = None
+        return render_template(directory+"/" + page + '.html', active=page, previous=prev)
     except:
         return render_template('404.html'), 404
 

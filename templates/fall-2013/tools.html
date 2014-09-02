@@ -1,77 +1,60 @@
-{% extends "fall-2013/sidebar.html" %}
+{% extends "fall-2013/menu.html" %}
 
 {% block page %}
 
-<div class="text">
-  <div class="row-fluid">
-    <div class="span12">
-      <h1 class="top">Tools</h1>
+{% filter markdown %}
 
-      <p>When writing reports for this class, I strongly encourage you
-	to use some tools that are commonly used in computer science.</p>
+# Tools
 
-      <h2>Writing Papers</h2>
+When writing reports for this class, I strongly encourage you to use
+some tools that are commonly used in computer science.
 
-      <p>To write papers, please use LaTeX, which is a system of text
-	formatting programs.  LaTeX is a useful publishing tool in the
-	academic world, as it automatically formats documents in many
-	commonly-used styles.  Because LaTeX separates content from style, you
-	will find that it helps you to focus on what you want to say in your
-	report, rather than what your report looks like.</p>
+## Writing Papers
 
-      <p>To help you learn LaTeX, I am including a
+To write papers, please use LaTeX, which is a system of text
+formatting programs.  LaTeX is a useful publishing tool in the
+academic world, as it automatically formats documents in many
+commonly-used styles.  Because LaTeX separates content from style, you
+will find that it helps you to focus on what you want to say in your
+report, rather than what your report looks like.
 
-	<a href="http://ilab.cs.byu.edu/cs660/code/latex/latex-tutorial.tgz">LaTeX tutorial</a>
+To help you learn LaTeX, I am including a [LaTeX
+tutorial](http://ilab.cs.byu.edu/cs660/code/latex/latex-tutorial.tgz)
+I wrote, complete with tables, figures, and bibliography.  The
+included examples use the IEEE
+[article](http://ilab.cs.byu.edu/cs660/code/latex/IEEEtran.tar.gz) and
+[bibliography](http://ilab.cs.byu.edu/cs660/code/latex/IEEEtranBST.tar.gz)
+styles.  These styles are typically used for submission to many IEEE
+conferences.  These files include documentation on how to use them,
+and my examples give you further advice.
 
-	I wrote, complete with tables, figures, and bibliography.  The
-	included examples use the IEEE
+You should also consult the [LaTeX book on
+WikiBooks](http://en.wikibooks.org/wiki/LaTeX).
 
-	<a href="http://ilab.cs.byu.edu/cs660/code/latex/IEEEtran.tar.gz">article</a>
+## Creating Graphs
 
-	and
+To create graphs, you should use Python with the
+[matplotlib](http://matplotlib.org/) library. By using a scripting
+language to create your plots, it will be easy to generate
+professional-looking plots.  You can also quickly create a large
+number of plots and easily change the formatting of the plot with a
+few simple changes to your script.
 
-	<a href="http://ilab.cs.byu.edu/cs660/code/latex/IEEEtranBST.tar.gz">bibliography</a>
-
-	styles.  These styles are typically used for submission to many IEEE
-	conferences.  These files include documentation on how to use them,
-	and my examples give you further advice.</p>
-
-      <p>You should also consult the
-
-	<a href="http://en.wikibooks.org/wiki/LaTeX">LaTeX book on WikiBooks</a>.
-
-      <h2>Creating Graphs</h2>
-
-      <p>To create graphs, you should use Python with the 
-
-	<a href="http://matplotlib.org/">matplotlib</a>
-
-	library. By using a scripting language to create your plots, it will
-	be easy to generate professional-looking plots.  You can also quickly
-	create a large number of plots and easily change the formatting of the
-	plot with a few simple changes to your script.</p>
-
-      <p>If you are using your own machine, install with pip:</p>
+If you are using your own machine, install with pip:
 
 <pre>
 sudo pip install matplotlib
 </pre>
 
-      <p>Example code coming soon.</p>
+Example code coming soon.
 
-      <h2>Creating Figures</h2>
+## Creating Figures
 
-      <p>Where they are helpful, you are encouraged to include your own
-	figures in your reports. I suggest using
+Where they are helpful, you are encouraged to include your own figures
+in your reports. I suggest using [Inkscape](http://www.inkscape.org)
+or a similar vector drawing program.  Be sure to use a tool that saves
+in SVG format, so you can easily scale your figures to new sizes.
 
-	<a href="http://www.inkscape.org">Inkscape</a>
-
-	or a similar vector drawing program.  Be sure to use a tool
-      that saves in SVG format, so you can easily scale your figures
-      to new sizes.</p>
+{% endfilter %}
       
-    </div>
-  </div>
-</div>
-
 {% endblock %}
