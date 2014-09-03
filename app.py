@@ -1,5 +1,6 @@
 import sys
 
+from views import fall2014
 from views import fall2013
 
 from flask import Flask, render_template
