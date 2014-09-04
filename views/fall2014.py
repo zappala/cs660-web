@@ -11,32 +11,41 @@ def fall2014schedule():
 
     s.week()
 
-    d = s.day("September 4")
+
+
+
+    d = s.day("September 3")
+    d.lecture('Introduction')
+
+    d = s.day("September 5")
     d.lecture('Internet Architecture')
     d.reading('The Design Philosophy of the DARPA Internet Protocols','http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf')
     d.reading('End-to-End Arguments in System Design','http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf')
     d.reading('Brief History of the Internet','http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet')
 
-    d = s.day("September 6")
+    s.week()
+
+    d = s.day("September 8")
     d.lecture('Internet Architecture')
-    d.reading('The Evolution of Layered Protocol Stacks Leads to an Hourglass-Shaped Architecture','http://conferences.sigcomm.org/sigcomm/2011/papers/sigcomm/p206.pdf')
-    d.reading('HTTP as the Narrow Waist of the Future Internet','http://conferences.sigcomm.org/hotnets/2010/papers/a6-popa.pdf')
+    d.reading('Named Data Networking (CCR 2014)','http://named-data.net/wp-content/uploads/2014/04/tr-ndn-0019-ndn.pdf')
+    d.reading('Named Data Networking Project','http://named-data.net/')
+
+    d = s.day("September 10")
+    d.lecture('Internet Architecture')
+    d.reading('XIA: Efficient Support for Evolvable Internetworking (NSDI 2012)','http://www.cs.cmu.edu/~xia/resources/Documents/XIA-nsdi.pdf')
+
+
+    d = s.day("September 12")
+    d.lecture('Internet Architecture')
+    d.reading('One Tunnel is (Often) Enough (SIGCOMM 2014)','http://delivery.acm.org/10.1145/2630000/2626318/p99-peter.pdf?ip=174.52.164.54&id=2626318&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EE994ED6114094BD1&CFID=554128679&CFTOKEN=67435862&__acm__=1409862385_f2d034b558a7c3255e83a1cd458201e5')
 
     s.week()
 
-    d = s.day("September 9")
-    d.lecture('Internet Architecture')
-    d.reading('A Data-Oriented (and Beyond) Network Architecture','http://www.sigcomm.org/ccr/papers/2007/October/1282427.1282402')
+# see paper at USENIX security on domains
 
-    d = s.day("September 11")
-    d.lecture('Internet Architecture')
-    d.reading('Architecting for Innovation','http://www.sigcomm.org/sites/default/files/ccr/papers/2011/July/2002250-2002256.pdf')
-
-    d = s.day("September 13")
-    d.lecture('Internet Architecture')
-    d.reading('Software Defined Internet Architecture: Decoupling Architecture from Infrastructure','http://www1.icsi.berkeley.edu/~barath/papers/sdia-hotnets12.pdf')
-
-    s.week()
+# http://delivery.acm.org/10.1145/2630000/2626295/p87-czyz.pdf?ip=174.52.164.54&id=2626295&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EE994ED6114094BD1&CFID=554128679&CFTOKEN=67435862&__acm__=1409862320_501b022812cfe5f6c67c39a599c0fa92
+# Measuring IPv6 Adoption
+# Jakub Czyz (University of Michigan); Mark Allman (International Computer Science Institute); Jing Zhang (University of Michigan); Scott Iekel-Johnson (Arbor Networks); Eric Osterweil (Verisign Labs); Michael Bailey (University of Michigan)
 
     d = s.day("September 16")
     d.lecture('Internet Measurements')
@@ -159,6 +168,11 @@ def fall2014schedule():
 
     s.week()
 
+#    RC3: Recursively Cautious Congestion Control
+#            R. Mittal, J. Sherry, S. Ratnasamy, S. Shenker
+#            In NSDI 2014
+#http://www.eecs.berkeley.edu/~sylvia/papers/rc3-nsdi.pdf
+
     d = s.day('November 11')
     d.lecture('Transport')
     d.reading('Reducing Web Latency: the Virtue of Gentle Aggression','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p159.pdf')
@@ -176,6 +190,21 @@ def fall2014schedule():
 
     d = s.day('November 18')
     d.lecture('Project Discussion')
+
+# routing security
+# From the Consent of the Routed: Improving the Transparency of the RPKI
+# Ethan Heilman (Boston University); Danny Cooper (Boston University); Leonid Reyzin (Boston University); Sharon Goldberg (Boston University)
+# http://delivery.acm.org/10.1145/2630000/2626293/p51-heilman.pdf?ip=174.52.164.54&id=2626293&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EE994ED6114094BD1&CFID=554128679&CFTOKEN=67435862&__acm__=1409862034_656d9339833d4e28b2b047edbb6097b0
+
+# network neutrality/architecture
+# http://delivery.acm.org/10.1145/2630000/2626308/p63-zhang.pdf?ip=174.52.164.54&id=2626308&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EE994ED6114094BD1&CFID=554128679&CFTOKEN=67435862&__acm__=1409862100_11ca0f18ef097eae6503dad9838d45ff
+# Network Neutrality Inference
+# Zhiyong Zhang (U. of Electronic Science and Technology, China); Ovidiu Mara (EPFL); Katerina Argyraki (EPFL)
+
+# privacy/ architecture
+# Balancing Accountability and Privacy in the Network
+#David Naylor (Carnegie Mellon University); Matthew K. Mukerjee (Carnegie Mellon University); Peter Steenkiste (Carnegie Mellon University)
+# http://delivery.acm.org/10.1145/2630000/2626306/p75-naylor.pdf?ip=174.52.164.54&id=2626306&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EE994ED6114094BD1&CFID=554128679&CFTOKEN=67435862&__acm__=1409862214_9536b4ee88b3b781bd8b2f466f5f8ef5
 
     d = s.day('November 20')
     d.lecture('Routing')
