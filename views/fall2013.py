@@ -30,7 +30,7 @@ def fall2013schedule():
 
     d = s.day("September 11")
     d.lecture('Internet Architecture')
-    d.reading('Architecting for Innovation','d.http://www.sigcomm.org/sites/default/files/ccr/papers/2011/July/2002250-2002256.pdf')
+    d.reading('Architecting for Innovation','http://www.sigcomm.org/sites/default/files/ccr/papers/2011/July/2002250-2002256.pdf')
 
     d = s.day("September 13")
     d.lecture('Internet Architecture')
