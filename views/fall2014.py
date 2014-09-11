@@ -37,7 +37,7 @@ def fall2014schedule():
 
     d = s.day("September 12")
     d.lecture('Internet Architecture')
-    d.reading('One Tunnel is (Often) Enough (SIGCOMM 2014)','http://delivery.acm.org/10.1145/2630000/2626318/p99-peter.pdf?ip=174.52.164.54&id=2626318&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EE994ED6114094BD1&CFID=554128679&CFTOKEN=67435862&__acm__=1409862385_f2d034b558a7c3255e83a1cd458201e5')
+    d.reading('One Tunnel is (Often) Enough (SIGCOMM 2014)','http://faculty.washington.edu/simpeter/sigc150-peterA.pdf')
 
     s.week()
 
