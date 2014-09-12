@@ -41,38 +41,30 @@ def fall2014schedule():
 
     s.week()
 
-# see paper at USENIX security on domains
-
-# http://delivery.acm.org/10.1145/2630000/2626295/p87-czyz.pdf?ip=174.52.164.54&id=2626295&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EE994ED6114094BD1&CFID=554128679&CFTOKEN=67435862&__acm__=1409862320_501b022812cfe5f6c67c39a599c0fa92
-# Measuring IPv6 Adoption
-# Jakub Czyz (University of Michigan); Mark Allman (International Computer Science Institute); Jing Zhang (University of Michigan); Scott Iekel-Johnson (Arbor Networks); Eric Osterweil (Verisign Labs); Michael Bailey (University of Michigan)
-
     d = s.day("September 16")
-    d.lecture('Internet Measurements')
-    d.reading('Understanding the Domain Registration Behavior of Spammers',
-              'http://conferences.sigcomm.org/imc/2013/papers/imc247-haoA.pdf')
+    d.lecture('Internet Measurements (IMC 2013)')
+    d.reading("Measuring IPv6 Adoption (SIGCOMM 2014)","https://www.icsi.berkeley.edu/pubs/networking/measuringIPv6.pdf")
 
-    d.assignment('Internet Architecture Summary','')
+
 
     d = s.day('September 18')
     d.lecture('Internet Measurements')
-    d.reading('Analysis of the HTTPS Certificate Ecosystem','')
+    d.reading('Analysis of the HTTPS Certificate Ecosystem (IMC 2013)','http://conferences.sigcomm.org/imc/2013/papers/imc257-durumericAemb.pdf')
 
     d = s.day('September 20')
     d.lecture('Internet Measurements')
-    d.reading('A Fistful of Bitcoins: Characterizing Payments Among Men with No Names','http://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf')
+    d.reading('Understanding the Domain Registration Behavior of Spammers (SIGCOMM 2013)',
+              'http://conferences.sigcomm.org/imc/2013/papers/imc247-haoA.pdf')
 
     s.week()
 
-    d.assignment('Internet Measurements Summary','')
-
     d = s.day('September 23')
-    d.lecture('Middleboxes and Middleware')
-    d.reading('Demystifying the Dark Side of the Middle: A Field Study of Middlebox Failures in Datacenters','')
+    d.lecture('Internet Measurements')
+    d.reading('The Long "Taile" of Typosquatting Domain Names (USENIX Security 2014)',"https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/szurdi")
 
     d = s.day('September 25')
-    d.lecture('Middleboxes and Middleware')
-    d.reading("Making Middleboxes Someone Else's Problem: Network Processing as a Cloud Service",'http://conferences.sigcomm.org/sigcomm/2012/paper/sigcomm/p13.pdf')
+    d.lecture('Internet Measurements')
+    d.reading("Understanding the Dark Side of Domain Parking (USENIX Security 2014)","https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/alrwais")
 
     d = s.day('September 27')
     d.lecture('Project Discussion')
@@ -110,7 +102,6 @@ def fall2014schedule():
     d = s.day('October 14')
     d.lecture('Usability and Home Networking')
     d.reading('The ins and outs of home networking: The case for useful and usable domestic networking','http://dl.acm.org/citation.cfm?id=1534905')
-    d.assignment('Social Networking Summary','')
 
     d = s.day('October 16')
     d.lecture('Usability and Home Networking')
@@ -128,7 +119,6 @@ def fall2014schedule():
     d.lecture('Software Defined Networking')
     d.reading('OpenFlow: enabling innovation in campus networks','http://dl.acm.org/citation.cfm?id=1355746')
     d.reading('NOX: towards an operating system for networks','http://dl.acm.org/citation.cfm?id=1384625&CFID=248686499&CFTOKEN=51372343')
-    d.assignment('Usability and Home Networking Summary','')
 
     d = s.day('October 23')
     d.lecture('Software Defined Networking')
@@ -143,7 +133,6 @@ def fall2014schedule():
     d = s.day('October 28')
     d.lecture('Miscellanea')
     d.reading('Demystifying Page Load Performance with WProf','https://www.usenix.org/conference/nsdi13/demystifying-page-load-performance-wprof')
-    d.assignment('Software Defined Networking Summary','')
 
     d = s.day('October 30')
     d.lecture('Miscellanea')
@@ -176,7 +165,6 @@ def fall2014schedule():
     d = s.day('November 11')
     d.lecture('Transport')
     d.reading('Reducing Web Latency: the Virtue of Gentle Aggression','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p159.pdf')
-    d.assignment('Project Proposal','')
 
     d = s.day('November 13')
     d.lecture('Transport')
@@ -234,7 +222,6 @@ def fall2014schedule():
     d = s.day('December 2')
     d.lecture('Privacy')
     d.reading('Koi: A Location-Privacy Platform for Smartphone Apps','https://www.usenix.org/conference/nsdi12/koi-location-privacy-platform-smartphone-apps')
-    d.assignment('Privacy Summary','')
 
     d = s.day('December 4')
     d.lecture('Security')
@@ -253,12 +240,10 @@ def fall2014schedule():
     d = s.day('December 11')
     d.lecture('Security')
     d.reading('Embassies: Radically Refactoring the Web','https://www.usenix.org/conference/nsdi13/embassies-radically-refactoring-web')
-    d.assignment('Security Summary','')
 
     s.week()
 
     d = s.day('December 20')
-    d.assignment('Final Paper','')
 
     return render_template('fall-2014/schedule.html',active='schedule',
                            weeks=s.weeks)
