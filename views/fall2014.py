@@ -72,75 +72,49 @@ def fall2014schedule():
     s.week()
 
     d = s.day('September 30')
-    d.lecture('Data Center Networking')
-    d.reading('Ananta: Cloud Scale Load Balancing','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p207.pdf')
+    d.lecture('Cryptocurrency')
+    d.reading("Bitcoin: A Peer-to-Peer Electronic Cash System","https://bitcoin.org/bitcoin.pdf")
 
     d = s.day('October 2')
-    d.lecture('Data Center Networking')
-    d.reading('Leveraging Endpoint Flexibility in Data-Intensive Clusters','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p231.pdf')
+    d.lecture('Cryptocurrency')
+    d.reading('A Next Generation Smart Contract & Decentralized Application Platform (white paper)', 'https://www.ethereum.org/pdfs/EthereumWhitePaper.pdf')
+    d.reading('Ethereum: A Secure Decentralised Generalised Transaction Ledger Proof-Of-Concept VI (yellow paper)','http://gavwood.com/Paper.pdf')
 
     d = s.day('October 4')
-    d.lecture('Data Center Networking')
-    d.reading("It's Not Easy Being Green",'http://conferences.sigcomm.org/sigcomm/2012/paper/sigcomm/p211.pdf')
+    d.lecture('Cryptocurrency')
 
     s.week()
 
     d = s.day('October 7')
-    d.lecture('Social Networking')
-    d.reading("Classifying Political Orientation on Twitter: It's Not Easy!",'http://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/view/6128')
 
     d = s.day('October 9')
-    d.lecture('Social Networking')
-    d.reading('A Measure of Polarization on Social Media Networks Based on Community Boundaries','http://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/view/6104')
 
     d = s.day('October 11')
-    d.lecture('Social Networking')
-    d.reading('The Anatomy of Large Facebook Cascades','http://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/view/6123')
 
     s.week()
 
     d = s.day('October 14')
-    d.lecture('Usability and Home Networking')
-    d.reading('The ins and outs of home networking: The case for useful and usable domestic networking','http://dl.acm.org/citation.cfm?id=1534905')
 
     d = s.day('October 16')
-    d.lecture('Usability and Home Networking')
-    d.reading('Home networking and HCI: what hath god wrought?','http://dl.acm.org/citation.cfm?id=1240712')
-    d.reading('Moving Toward the Middle: The Case Against the End-to-End Argument in Home Networking','http://www.cc.gatech.edu/fac/keith/pubs/hotnets07-end-to-end.pdf')
 
     d = s.day('October 18')
-    d.lecture('Usability and Home Networking')
-    d.reading('"You\'re Capped!" Understanding the Effects of Bandwidth Caps on Broadband Use in the Home','http://research.microsoft.com/apps/pubs/?id=162079')
 
 
     s.week()
 
     d = s.day('October 21')
-    d.lecture('Software Defined Networking')
-    d.reading('OpenFlow: enabling innovation in campus networks','http://dl.acm.org/citation.cfm?id=1355746')
-    d.reading('NOX: towards an operating system for networks','http://dl.acm.org/citation.cfm?id=1384625&CFID=248686499&CFTOKEN=51372343')
 
     d = s.day('October 23')
-    d.lecture('Software Defined Networking')
-    d.reading('B4: Experience with a Globally-Deployed Software Defined WAN','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p3.pdf')
 
     d = s.day('October 25')
-    d.lecture('Software Defined Networking')
-    d.reading('Reproducible Network Experiments Using Container-Based Emulation','http://conferences.sigcomm.org/co-next/2012/eproceedings/conext/p253.pdf')
 
     s.week()
 
     d = s.day('October 28')
-    d.lecture('Miscellanea')
-    d.reading('Demystifying Page Load Performance with WProf','https://www.usenix.org/conference/nsdi13/demystifying-page-load-performance-wprof')
 
     d = s.day('October 30')
-    d.lecture('Miscellanea')
-    d.reading('Piracy Activity vs. Product Features in Digital Games','http://openarchive.cbs.dk/bitstream/handle/10398/8299/tech_report_v1.pdf')
 
     d = s.day('November 1')
-    d.lecture('Miscellanea')
-    d.reading("Dasu: Pushing Experiments to the Internet's Edge",'https://www.usenix.org/conference/nsdi13/dasu-pushing-experiments-internet%E2%80%99s-edge')
 
     s.week()
 
