@@ -81,7 +81,8 @@ def fall2014schedule():
     d.reading('Ethereum: A Secure Decentralised Generalised Transaction Ledger Proof-Of-Concept VI (yellow paper)','http://gavwood.com/Paper.pdf')
 
     d = s.day('October 4')
-    d.lecture('Cryptocurrency')
+    d.lecture('Security')
+    d.reading('SSL and HTTPS: Revisiting past challenges and evaluating certificate trust model enhancements','https://www.scs.carleton.ca/sites/default/files/tr/TR-13-01.pdf')
 
     s.week()
 
