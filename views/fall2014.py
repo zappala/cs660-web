@@ -87,10 +87,15 @@ def fall2014schedule():
     s.week()
 
     d = s.day('October 7')
+    d.lecture('Security')
 
     d = s.day('October 9')
+    d.lecture("Security and Architecture")
 
     d = s.day('October 11')
+    d.lecture('Internet Architecture')
+    d.reading('Implementing Instant Messaging Using Named Data','http://named-data.net/wp-content/uploads/ndnpurple.pdf')
+    d.reading('Video Streaming over Named Data Networking (optional)','http://named-data.net/wp-content/uploads/2013/07/E-Letter-July13_page6.pdf')
 
     s.week()
 
