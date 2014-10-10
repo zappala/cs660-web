@@ -95,6 +95,7 @@ def fall2014schedule():
     d = s.day('October 11')
     d.lecture('Internet Architecture')
     d.reading('Implementing Instant Messaging Using Named Data','http://named-data.net/wp-content/uploads/ndnpurple.pdf')
+    d.reading('Networking Named Content (sections 4 and 5)','http://named-data.net/wp-content/uploads/Jacob.pdf')
     d.reading('Video Streaming over Named Data Networking (optional)','http://named-data.net/wp-content/uploads/2013/07/E-Letter-July13_page6.pdf')
 
     s.week()
