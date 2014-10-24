@@ -41,58 +41,56 @@ def fall2014schedule():
 
     s.week()
 
-    d = s.day("September 16")
+    d = s.day("September 15")
     d.lecture('Internet Measurements (IMC 2013)')
     d.reading("Measuring IPv6 Adoption (SIGCOMM 2014)","https://www.icsi.berkeley.edu/pubs/networking/measuringIPv6.pdf")
 
-
-
-    d = s.day('September 18')
+    d = s.day('September 17')
     d.lecture('Internet Measurements')
     d.reading('Analysis of the HTTPS Certificate Ecosystem (IMC 2013)','http://conferences.sigcomm.org/imc/2013/papers/imc257-durumericAemb.pdf')
 
-    d = s.day('September 20')
+    d = s.day('September 19')
     d.lecture('Internet Measurements')
     d.reading('Understanding the Domain Registration Behavior of Spammers (SIGCOMM 2013)',
               'http://conferences.sigcomm.org/imc/2013/papers/imc247-haoA.pdf')
 
     s.week()
 
-    d = s.day('September 23')
+    d = s.day('September 22')
     d.lecture('Internet Measurements')
     d.reading('The Long "Taile" of Typosquatting Domain Names (USENIX Security 2014)',"https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/szurdi")
 
-    d = s.day('September 25')
+    d = s.day('September 24')
     d.lecture('Internet Measurements')
     d.reading("Understanding the Dark Side of Domain Parking (USENIX Security 2014)","https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/alrwais")
 
-    d = s.day('September 27')
+    d = s.day('September 26')
     d.lecture('Project Discussion')
 
     s.week()
 
-    d = s.day('September 30')
+    d = s.day('September 29')
     d.lecture('Cryptocurrency')
     d.reading("Bitcoin: A Peer-to-Peer Electronic Cash System","https://bitcoin.org/bitcoin.pdf")
 
-    d = s.day('October 2')
+    d = s.day('October 1')
     d.lecture('Cryptocurrency')
     d.reading('A Next Generation Smart Contract & Decentralized Application Platform (white paper)', 'https://www.ethereum.org/pdfs/EthereumWhitePaper.pdf')
     d.reading('Ethereum: A Secure Decentralised Generalised Transaction Ledger Proof-Of-Concept VI (yellow paper)','http://gavwood.com/Paper.pdf')
 
-    d = s.day('October 4')
+    d = s.day('October 3')
     d.lecture('Security')
     d.reading('SSL and HTTPS: Revisiting past challenges and evaluating certificate trust model enhancements','https://www.scs.carleton.ca/sites/default/files/tr/TR-13-01.pdf')
 
     s.week()
 
-    d = s.day('October 7')
+    d = s.day('October 6')
     d.lecture('Security')
 
-    d = s.day('October 9')
+    d = s.day('October 8')
     d.lecture("Security and Architecture")
 
-    d = s.day('October 11')
+    d = s.day('October 10')
     d.lecture('Internet Architecture')
     d.reading('Implementing Instant Messaging Using Named Data','http://named-data.net/wp-content/uploads/ndnpurple.pdf')
     d.reading('Networking Named Content (sections 4 and 5)','http://named-data.net/wp-content/uploads/Jacob.pdf')
@@ -100,20 +98,29 @@ def fall2014schedule():
 
     s.week()
 
-    d = s.day('October 14')
+    d = s.day('October 13')
+    d.lecture('Internet Architecture')
 
-    d = s.day('October 16')
+    d = s.day('October 15')
+    d.lecture('Internet Architecture')
 
-    d = s.day('October 18')
+    d = s.day('October 17')
+    d.lecture('Internet Architecture')
+    d.reading("NFD Developer's Guide","http://named-data.net/wp-content/uploads/2014/07/NFD-developer-guide.pdf")
 
 
     s.week()
 
-    d = s.day('October 21')
+    d = s.day('October 20')
+    d.lecture('Privacy')
+    d.reading("Anonymous Connections and Onion Routing","http://www.onion-router.net/Publications/JSAC-1998.pdf")
 
-    d = s.day('October 23')
+    d = s.day('October 22')
+    d.lecture('Privacy')
+    d.reading("Balancing Accountability and Privacy in the Network","http://www.cs.cmu.edu/~dnaylor/APIP.pdf")
 
-    d = s.day('October 25')
+    d = s.day('October 24')
+    d.lecture('Privacy Discussion')
 
     s.week()
 
@@ -170,10 +177,6 @@ def fall2014schedule():
 # Network Neutrality Inference
 # Zhiyong Zhang (U. of Electronic Science and Technology, China); Ovidiu Mara (EPFL); Katerina Argyraki (EPFL)
 
-# privacy/ architecture
-# Balancing Accountability and Privacy in the Network
-#David Naylor (Carnegie Mellon University); Matthew K. Mukerjee (Carnegie Mellon University); Peter Steenkiste (Carnegie Mellon University)
-# http://delivery.acm.org/10.1145/2630000/2626306/p75-naylor.pdf?ip=174.52.164.54&id=2626306&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EE994ED6114094BD1&CFID=554128679&CFTOKEN=67435862&__acm__=1409862214_9536b4ee88b3b781bd8b2f466f5f8ef5
 
     d = s.day('November 20')
     d.lecture('Routing')
@@ -228,3 +231,7 @@ def fall2014schedule():
 
     return render_template('fall-2014/schedule.html',active='schedule',
                            weeks=s.weeks)
+##  http://cacm.acm.org/magazines/2014/4/173218-small-data-where-n-me/fulltext
+## http://www.itworld.com/article/2828870/it-management/deborah-estrin-wants-to--literally--open-source-your-life.html
+## http://www.eweek.com/enterprise-apps/small-data-analysis-the-next-big-thing-advocates-assert.html/
+## https://smalldata.io/research.html
