@@ -124,48 +124,46 @@ def fall2014schedule():
 
     s.week()
 
-    d = s.day('October 28')
+    d = s.day('October 27')
+    d.lecture("Transport")
+    d.reading("RC3: Recursively Cautious Congestion Control","http://www.eecs.berkeley.edu/~sylvia/papers/rc3-nsdi.pdf")
 
-    d = s.day('October 30')
-
-    d = s.day('November 1')
-
-    s.week()
-
-    d = s.day('November 4')
-    d.lecture('Work on Project')
-  
-    d = s.day('November 6')
-    d.reading('Improving Fairness, Efficiency, and Stability in HTTP-based Adaptive Video Streaming with FESTIVE','http://conferences.sigcomm.org/co-next/2012/eproceedings/conext/p97.pdf')
-    d.lecture('Streaming')
-
-    d = s.day('November 8')
-    d.reading('Developing a Predictive Model of Quality of Experience for Internet Video','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p339.pdf')
-    d.lecture('Streaming')
-
-    s.week()
-
-#    RC3: Recursively Cautious Congestion Control
-#            R. Mittal, J. Sherry, S. Ratnasamy, S. Shenker
-#            In NSDI 2014
-#http://www.eecs.berkeley.edu/~sylvia/papers/rc3-nsdi.pdf
-
-    d = s.day('November 11')
+    d = s.day('October 39')
     d.lecture('Transport')
     d.reading('Reducing Web Latency: the Virtue of Gentle Aggression','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p159.pdf')
 
-    d = s.day('November 13')
+    d = s.day('October 31')
+    d.lecture('Project Discussion',"Come prepared with a one paragraph description of a project and/or 5 important related papers")
+
+    s.week()
+
+    d = s.day('November 3')
     d.lecture('Transport')
     d.reading('TCP ex Machina: Computer-Generated Congestion Control','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p123.pdf')
-    d.reading('FCP: A Flexible Transport Framework for Accommodating Diversity (optional)','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p135.pdf')
+  
+    d = s.day('November 5')
+    d.lecture('Work on Project')
 
-    d = s.day('November 15')
-    d.lecture('Data Center Visit')
+    d = s.day('November 7')
+    d.lecture('Work on Project')
+
+#    d.reading('Improving Fairness, Efficiency, and Stability in HTTP-based Adaptive Video Streaming with FESTIVE','http://conferences.sigcomm.org/co-next/2012/eproceedings/conext/p97.pdf')
+#    d.reading('Developing a Predictive Model of Quality of Experience for Internet Video','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p339.pdf')
+
+    s.week()
+
+    d = s.day('November 10')
+
+    d = s.day('November 12')
+
+    d = s.day('November 14')
 
     s.week()
 
     d = s.day('November 18')
     d.lecture('Project Discussion')
+
+#    d.reading('FCP: A Flexible Transport Framework for Accommodating Diversity (optional)','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p135.pdf')
 
 # routing security
 # From the Consent of the Routed: Improving the Transparency of the RPKI
