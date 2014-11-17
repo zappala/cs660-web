@@ -153,17 +153,21 @@ def fall2014schedule():
     s.week()
 
     d = s.day('November 10')
+    d.lecture('Work on Project')
 
     d = s.day('November 12')
+    d.lecture('Report on Project')
 
     d = s.day('November 14')
+    d.lecture("Network Neutrality")
+    d.reading('Network Neutrality Inference','http://dl.acm.org/citation.cfm?id=2626308')
+
+#    d.reading('FCP: A Flexible Transport Framework for Accommodating Diversity (optional)','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p135.pdf')
 
     s.week()
 
-    d = s.day('November 18')
-    d.lecture('Project Discussion')
+    d = s.day('November 17')
 
-#    d.reading('FCP: A Flexible Transport Framework for Accommodating Diversity (optional)','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p135.pdf')
 
 # routing security
 # From the Consent of the Routed: Improving the Transparency of the RPKI
@@ -171,9 +175,6 @@ def fall2014schedule():
 # http://delivery.acm.org/10.1145/2630000/2626293/p51-heilman.pdf?ip=174.52.164.54&id=2626293&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EE994ED6114094BD1&CFID=554128679&CFTOKEN=67435862&__acm__=1409862034_656d9339833d4e28b2b047edbb6097b0
 
 # network neutrality/architecture
-# http://delivery.acm.org/10.1145/2630000/2626308/p63-zhang.pdf?ip=174.52.164.54&id=2626308&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EE994ED6114094BD1&CFID=554128679&CFTOKEN=67435862&__acm__=1409862100_11ca0f18ef097eae6503dad9838d45ff
-# Network Neutrality Inference
-# Zhiyong Zhang (U. of Electronic Science and Technology, China); Ovidiu Mara (EPFL); Katerina Argyraki (EPFL)
 
 
     d = s.day('November 20')
