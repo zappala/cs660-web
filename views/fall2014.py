@@ -159,14 +159,15 @@ def fall2014schedule():
     d.lecture('Report on Project')
 
     d = s.day('November 14')
-    d.lecture("Network Neutrality")
-    d.reading('Network Neutrality Inference','http://dl.acm.org/citation.cfm?id=2626308')
+    d.lecture('Report on Project')
 
 #    d.reading('FCP: A Flexible Transport Framework for Accommodating Diversity (optional)','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p135.pdf')
 
     s.week()
 
     d = s.day('November 17')
+    d.lecture("Network Neutrality")
+    d.reading('Network Neutrality Inference','http://dl.acm.org/citation.cfm?id=2626308')
 
 
 # routing security
@@ -176,22 +177,29 @@ def fall2014schedule():
 
 # network neutrality/architecture
 
+    d = s.day('November 19')
+    d.lecture("Network Neutrality")
+    d.reading("ISP Interconnection and its Impact on Consumer Internet Performance","http://www.measurementlab.net/static/observatory/M-Lab_Interconnection_Study_US.pdf")
+    d.reading("Netflix vs Comcast: Internet Tolls And The Case For Strong Net Neutrality","http://blog.netflix.com/2014/03/internet-tolls-and-case-for-strong-net.html")
+    d.reading("Netflix vs Comcast: The Case Against ISP Tolls","http://blog.netflix.com/2014/04/the-case-against-isp-tolls.html")
+    d.reading("Netflix vs Comcast: Comcast response to Netflix","http://corporate.comcast.com/comcast-voices/comcast-response-to-netflix")
+    d.reading("Netflix vs Comcast: Comcast TWC Merger Exhibit 4","http://corporate.comcast.com/images/2014-09-23-REDACTED-Comcast-TWC-Opposition-and-Response-Exhibit-4-McElearney.pdf")
+    d.reading("Netflix response to FCC","http://apps.fcc.gov/ecfs/document/view?id=7521491186")
+    
 
-    d = s.day('November 20')
-    d.lecture('Routing')
-    d.reading('LIFEGUARD: Practical Repair of Persistent Route Failures','http://conferences.sigcomm.org/sigcomm/2012/paper/sigcomm/p395.pdf')
-
-    d = s.day('November 22')
-    d.lecture('Privacy')
-    d.reading('Detecting and Defending Against Third-Party Tracking on the Web','https://www.usenix.org/conference/nsdi12/detecting-and-defending-against-third-party-tracking-web')
+    d = s.day('November 21')
+    d.lecture("Network Neutrality")
+    d.reading("Media Coverage: 9 questions about network neutrality you were too embarrassed to ask","http://www.vox.com/2014/11/10/7187281/9-questions-about-network-neutrality-you-were-too-embarrassed-to-ask")
+    d.reading("Media Coverage: Obama's big net neutrality announcement, explained","http://www.vox.com/2014/11/10/7186179/obamas-big-net-neutrality-announcement-explained")
+    d.reading("Media Coverage: Beyond net neutrality","http://www.vox.com/2014/5/2/5665890/beyond-net-neutrality-the-new-battle-for-the-future-of-the-internet")
+    d.reading("Media Coverage: Why the government should provide internet access","http://www.vox.com/2014/4/6/5587138/susan-crawford-internet-public-option")
 
     s.week()
 
-    d = s.day('November 25')
-    d.lecture('Privacy')
-    d.reading('Expressive Privacy Control with Pseudonyms','http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p291.pdf')
+    d = s.day('November 24')
+    d.lecture('Routing')
 
-    d = s.day('November 26')
+    d = s.day('November 25')
     d.lecture('Projects')
 
     d = s.day('November 27')
@@ -203,16 +211,14 @@ def fall2014schedule():
     s.week()
 
     d = s.day('December 2')
-    d.lecture('Privacy')
-    d.reading('Koi: A Location-Privacy Platform for Smartphone Apps','https://www.usenix.org/conference/nsdi12/koi-location-privacy-platform-smartphone-apps')
+    d.reading('LIFEGUARD: Practical Repair of Persistent Route Failures','http://conferences.sigcomm.org/sigcomm/2012/paper/sigcomm/p395.pdf')
+
 
     d = s.day('December 4')
     d.lecture('Security')
-    d.reading('No Attack Necessary: The Surprising Dynamics of SSL Trust Relationships','http://www1.icsi.berkeley.edu/~bernhard/papers/noAttackNecessary.pdf')
 
     d = s.day('December 6')
     d.lecture('Security')
-    d.reading('Rethinking SSL development in an appified world','http://dl.acm.org/citation.cfm?id=2516655')
 
     s.week()
 
