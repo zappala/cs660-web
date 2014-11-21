@@ -189,11 +189,13 @@ def fall2014schedule():
 
     d = s.day('November 21')
     d.lecture("Network Neutrality")
+    d.reading("FCC: Setting the Record Straight on the FCC's Open Internet Rules","http://www.fcc.gov/blog/setting-record-straight-fcc-s-open-internet-rules");
+    d.reading("FCC: Finding the Best Path Forward to Protect the Open Internet","http://www.fcc.gov/blog/finding-best-path-forward-protect-open-internet");
     d.reading("Media Coverage: 9 questions about network neutrality you were too embarrassed to ask","http://www.vox.com/2014/11/10/7187281/9-questions-about-network-neutrality-you-were-too-embarrassed-to-ask")
     d.reading("Media Coverage: Obama's big net neutrality announcement, explained","http://www.vox.com/2014/11/10/7186179/obamas-big-net-neutrality-announcement-explained")
-    d.reading("Media Coverage: Beyond net neutrality","http://www.vox.com/2014/5/2/5665890/beyond-net-neutrality-the-new-battle-for-the-future-of-the-internet")
+    d.reading("Media Coverage: FCC Tests The Waters On A 'Hybrid' Net Neutrality Solution That Almost Everyone Hates","https://www.techdirt.com/blog/netneutrality/articles/20141031/05122328994/fcc-tests-waters-hybrid-net-neutrality-solution-that-almost-everyone-hates.shtml")
     d.reading("Media Coverage: Why the government should provide internet access","http://www.vox.com/2014/4/6/5587138/susan-crawford-internet-public-option")
-
+    d.reading("Media Coverage: Fixing The Broadband Market And Protecting Net Neutrality By Prying Open Incumbent Networks To Meaningful Competition","https://www.techdirt.com/blog/netneutrality/articles/20141113/05332429127/fixing-broadband-market-protecting-net-neutrality-prying-open-incumbent-networks-to-meaningful-competition.shtml")
     s.week()
 
     d = s.day('November 24')
