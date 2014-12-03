@@ -169,14 +169,6 @@ def fall2014schedule():
     d.lecture("Network Neutrality")
     d.reading('Network Neutrality Inference','http://dl.acm.org/citation.cfm?id=2626308')
 
-
-# routing security
-# From the Consent of the Routed: Improving the Transparency of the RPKI
-# Ethan Heilman (Boston University); Danny Cooper (Boston University); Leonid Reyzin (Boston University); Sharon Goldberg (Boston University)
-# http://delivery.acm.org/10.1145/2630000/2626293/p51-heilman.pdf?ip=174.52.164.54&id=2626293&acc=OPENTOC&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2EE994ED6114094BD1&CFID=554128679&CFTOKEN=67435862&__acm__=1409862034_656d9339833d4e28b2b047edbb6097b0
-
-# network neutrality/architecture
-
     d = s.day('November 19')
     d.lecture("Network Neutrality")
     d.reading("ISP Interconnection and its Impact on Consumer Internet Performance","http://www.measurementlab.net/static/observatory/M-Lab_Interconnection_Study_US.pdf")
@@ -200,11 +192,12 @@ def fall2014schedule():
 
     d = s.day('November 24')
     d.lecture('Routing')
+    d.reading("Finding a needle in a haystack: pinpointing significant BGP routing changes in an IP network","http://dl.acm.org/citation.cfm?id=1251204")
 
     d = s.day('November 25')
-    d.lecture('Projects')
+    d.lecture('Work on Projects')
 
-    d = s.day('November 27')
+    d = s.day('November 26')
     d.lecture('No Class','Thanksgiving Holiday')
 
     d = s.day('November 28')
@@ -212,25 +205,26 @@ def fall2014schedule():
 
     s.week()
 
-    d = s.day('December 2')
-    d.reading('LIFEGUARD: Practical Repair of Persistent Route Failures','http://conferences.sigcomm.org/sigcomm/2012/paper/sigcomm/p395.pdf')
+    d = s.day('December 1')
+    d.lecture('Routing')
+    d.reading("HLP: a next generation inter-domain routing protocol","http://dl.acm.org/citation.cfm?id=1080095")
 
+    d = s.day('December 3')
+    d.lecture('Transport')
+    d.reading("CUBIC: a new TCP-friendly high-speed TCP variant","http://dl.acm.org/citation.cfm?id=1400105")
 
-    d = s.day('December 4')
-    d.lecture('Security')
-
-    d = s.day('December 6')
-    d.lecture('Security')
+    d = s.day('December 5')
+    d.lecture('Projects')
 
     s.week()
 
-    d = s.day('December 9')
-    d.lecture('Security')
-    d.reading('Perspectives: Improving SSH-style Host Authentication with Multi-Path Probing','http://www.cs.cmu.edu/~dga/papers/perspectives-usenix2008.pdf')
+    d = s.day('December 8')
+    d.lecture('Wireless')
 
-    d = s.day('December 11')
-    d.lecture('Security')
-    d.reading('Embassies: Radically Refactoring the Web','https://www.usenix.org/conference/nsdi13/embassies-radically-refactoring-web')
+
+    d = s.day('December 10')
+    d.lecture('Wireless')
+
 
     s.week()
 
