@@ -208,6 +208,7 @@ def fall2014schedule():
     d = s.day('December 1')
     d.lecture('Routing')
     d.reading("HLP: a next generation inter-domain routing protocol","http://dl.acm.org/citation.cfm?id=1080095")
+    d.reading('Putting BGP on the right path: a case for next-hop routing','http://dl.acm.org/citation.cfm?id=1868450')
 
     d = s.day('December 3')
     d.lecture('Transport')
@@ -219,12 +220,14 @@ def fall2014schedule():
     s.week()
 
     d = s.day('December 8')
-    d.lecture('Wireless')
+    d.lecture('Wireless Networks')
+    d.reading("Wireless Networks","/static/lectures/fall-2014/wireless-networks.pdf")
 
 
     d = s.day('December 10')
-    d.lecture('Wireless')
-
+    d.lecture('Small Data')
+    d.reading('Small Data: Where N = Me','http://cacm.acm.org/magazines/2014/4/173218-small-data-where-n-me/fulltext')
+    d.reading("smalldata.io","http://smalldata.io/")
 
     s.week()
 
@@ -232,7 +235,3 @@ def fall2014schedule():
 
     return render_template('fall-2014/schedule.html',active='schedule',
                            weeks=s.weeks)
-##  http://cacm.acm.org/magazines/2014/4/173218-small-data-where-n-me/fulltext
-## http://www.itworld.com/article/2828870/it-management/deborah-estrin-wants-to--literally--open-source-your-life.html
-## http://www.eweek.com/enterprise-apps/small-data-analysis-the-next-big-thing-advocates-assert.html/
-## https://smalldata.io/research.html
