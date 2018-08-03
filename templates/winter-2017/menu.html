@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% set term = 'winter-2017' %}
+
+{% macro render(directory,page,name) -%}
+{% set path = term %}
+{% if directory %}
+{% set path = term + '/' + directory %}
+{% endif %}
+{% set target = page %}
+{% if page == '' %}
+{% set target = 'index' %}
+{% endif %}
+<li {% if active == target %}class="active"{% endif %}>
+<a href={{url_for("show",directory=path, page=page)}} >{{name}}</a></li>
+{%- endmacro %}
+
+{% block term %}
+Winter 2017
+{% endblock %}
+
+{% block menu %}
+
+{{ render('','','Syllabus') }}
+{{ render('','schedule','Schedule') }}
+{{ render('','survey','Survey Paper') }}
+{{ render('','instructor','Instructor') }}
+<li><a href="https://piazza.com/class/ixnudh13zz14xm">Discussion <i class="fi-arrow-right"></i></a></li>
+</ul>
+
+{% endblock %}

@@ -2,7 +2,8 @@
 
 body {
     font-family: 'Merriweather';
-    line-height: 1.2;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 /* Header */
@@ -14,7 +15,7 @@ body {
     background-color: #066e95;
     margin: 0px 0px 0px 0px;
     color: white;
-    padding: 10px 10px;
+    padding: 5px 5px;
 }
 
 #header a {
@@ -29,7 +30,7 @@ body {
 
 .course {
     font-family: 'Source Sans Pro';
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 0px;
 }
 
@@ -55,6 +56,8 @@ body {
     padding-left: 10px;
     background-color: #ffba20;
     background-color: #ee8800;
+    height: 40px;
+    line-height: 40px;
 }
 
 .top-bar .title-area {
@@ -75,6 +78,7 @@ body {
 }
 
 .top-bar-section ul li {
+    line-height: 40px;
     margin: 0px;
     background-color: #ffba20;
     background-color: #ee8800;
@@ -83,28 +87,38 @@ body {
 .top-bar-section ul li>a {
     font-family: 'Lato';
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 0.9em;
+    line-height: 40px;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: #ffba20;
     background-color: #ee8800;
+    line-height: 40px;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
     background-color: #272727;
+    line-height: 40px;
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
     background: #666;
+    line-height: 40px;
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
     background: #666;
+    line-height: 40px;
 }
 
 .top-bar-section .dropdown li.active:not(.has-form) a:not(.button) {
     background: #272727;
+    line-height: 40px;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+    line-height: 40px;
 }
 
 .contain-to-grid {
@@ -179,9 +193,7 @@ body {
 }
 
 #page p, #page ul {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.5;
+    margin-bottom: 5px;
 }
 
 /* Calendar */
@@ -302,7 +314,7 @@ h1 {
 }
 
 #page h1 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h2 {
@@ -375,12 +387,16 @@ blockquote {
 }
 
 blockquote p {
-    font-size: 1em;
     margin-bottom: 0px !important;
 }
 
 p {
+    font-size: 1em;
     margin-bottom: 10px;
+}
+
+ul, ol, dl {
+    font-size: 1em;
 }
 
 .height-400 {
@@ -393,7 +409,7 @@ p {
 	padding: 10px 0px;
     }
     .course {
-	font-size: 2em;
+	font-size: 1.5em;
     }
     .university {
 	font-size: 1.2em;

@@ -1,5 +1,7 @@
+import os
 import sys
 
+from views import winter2017
 from views import fall2014
 from views import fall2013
 
@@ -16,16 +18,21 @@ Markdown(app)
 @app.route('/<path:directory>/',defaults={'page':'index'})
 @app.route('/<path:directory>/<page>')
 def show(directory,page):
-    try:
-        if not directory:
-            return render_template(page + '.html', active='home')
-        try:
-            prev = directory.split('/')[-1]
-        except:
-            prev = None
-        return render_template(directory+"/" + page + '.html', active=page, previous=prev)
-    except:
+    if not directory:
+        filename = page + '.html'
+        if os.path.isfile('templates/' + filename):
+            return render_template(filename, active='home')
+        print filename
         return render_template('404.html'), 404
+    try:
+        prev = directory.split('/')[-1]
+    except:
+        prev = None
+    filename = directory + "/" + page + '.html'
+    if os.path.isfile('templates/' + filename):
+        return render_template(filename, active=page, previous=prev)
+    print filename
+    return render_template('404.html'), 404
 
 @freezer.register_generator
 def custom404():
